@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico|Sedgwick+Ave+Display');
+
+.logo, .form-header{
+  font-family: 'Lobster', cursive !important;
+}
+.tableHeader{
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+.helve{
+  font-family:  "Helvetica Neue","Segoe UI",Roboto,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+#table_wrapper{
+  width:100%;
+}
+
+
+/* .loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 22px solid #FFC107;
+  border-right: 22px solid #FFECB3;
+  border-bottom: 22px solid #000000;
+  width: 250px;
+  height: 250px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  position: fixed;
+   left: 35%;
+   top: 35%;
+
+
+} */
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0); /* Black w/ opacity */
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.logo, .db-text{
+  color: #FFFFFF !important;
+}
+a.db-text:hover {
+  color: #000000 !important;
+}
+.logo:hover{
+  text-decoration: none;
+}
+.box{
+  align-items: center;
+  display: flex;
+  height: 92vh;
+  justify-content: center;
+}
+.form-header{
+  text-align: center;
+
+}
+#alerts{
+  align-items: center;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 1.5rem;
+  height: 3rem;
+  justify-content: space-between;
+  padding: 2rem;
+  text-align: center;
+  width:100%;
+}
+
+#alertClose, #modalBoxClose{
+  cursor:pointer;
+}
+@media (min-width: 768px) {
+  .startDateMargin{
+    margin-right: 2.4rem;
+  }
+}
+@media (min-width: 992px){
+  .col-search {
+      -ms-flex: 0 0 29%;
+      flex: 0 0 20%;
+      max-width: 20%;
+  }
+  .col-record-limit{
+    -ms-flex: 0 0 12%;
+    flex: 0 0 12%;
+    max-width: 12%;
+  }
+  .col-search-date{
+    -ms-flex: 0 0 47.333333%;
+    flex: 0 0 47.333333%;
+    max-width: 47.333333%;
+  }
+  .col-summary{
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+.floatRight{
+  float: right !important;
+  background: red;
+
+}
