@@ -96,11 +96,7 @@ include 'validator.php';
           <?php
           $errors = array();
 
-          $servername = "192.168.100.170";
-          //$servername = "83.138.190.170";
-          $username = "bvn";
-          $password= "bvn123";
-          $dbName = "mydb1.vas2nets";
+
           $conn = oci_connect($username,$password,"//$servername/$dbName");
           var_dump($conn);
           die('Test');
